@@ -1,0 +1,10 @@
+{
+  "sellerProblem": "Marketplace sellers struggle to choose search keywords that match buyer demand without manual spreadsheet review.",
+  "useCase": "keyword-recommendation",
+  "inputData": "Seller-owned product titles, category metadata, and anonymized historical search-term exports.",
+  "modelFamily": "Text embeddings with a lightweight ranking model and deterministic fallback rules.",
+  "baseline": "Compare against the seller's current 20-keyword manual list for the same product set.",
+  "evaluationMetric": "Improve top-20 keyword precision by at least 10% on reviewed examples.",
+  "limitation": "The first PoC cannot prove conversion lift until marketplace traffic data is available.",
+  "reviewOwner": "E-commerce product reviewer"
+}
