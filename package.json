@@ -1,0 +1,14 @@
+{
+  "name": "ecomsuite-marketplace-ai-check",
+  "version": "1.0.0",
+  "description": "PoC readiness checks for marketplace AI use cases",
+  "type": "module",
+  "main": "src/poc-check.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js examples/keyword-recommendation-poc.json"
+  },
+  "keywords": ["ecomsuite", "ecommerce-ai", "marketplace", "ml-poc"],
+  "author": "Siva Dheeraj",
+  "license": "MIT"
+}
